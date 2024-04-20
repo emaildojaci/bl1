@@ -1,0 +1,222 @@
+
+        /* Estilos da primeira parte (imagem) */
+        .parte-imagem {
+            flex: 1;
+            background-color: #f0f0f0;
+            padding: 6px;
+        }
+
+        .parte-imagem img {
+            display: block;
+            width: 100%;
+            height: auto;                       
+        }
+
+        /* Estilos da segunda parte (texto) */
+        .parte-texto {
+            flex: 1;
+            background-color: #e0e0e0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            /*padding: 5px;*/
+            box-sizing: border-box;            
+            
+        }
+
+        .parte-texto p {
+            text-align: center;
+            margin: 0;            
+        }
+
+
+section {
+            padding: 7px;
+			width: 100%;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+td {
+  text-align: center;  
+}
+
+
+.sicon {
+  font-size: 30px;
+}
+
+.tab-numeros {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto; 
+}
+
+.center {
+  text-align: center;
+  /*font-family: "Helvetica";*/
+  /*border: 3px solid green;*/
+}
+
+.mais {
+	text-align: center;
+    padding: 5px;
+}
+
+tr.sU>td {
+  padding-bottom: 10px;
+}
+.pad3{
+padding-left: 10px;
+}
+
+
+.div-raiz {
+            width: 100%; /* Define a largura como 100% */
+            /* Opcional: remova as margens e o preenchimento para garantir que a div ocupe todo o espaço disponível */
+            margin: 0;
+            padding: 0;
+}
+
+#numeros {
+
+        background-color: #f0f0f0; /* Cor de fundo */
+        border-radius: 6px; /* Raio das bordas arredondadas */
+        padding: 2px; /* Espaçamento interno */*/
+        width: 100%; /* Largura do elemento */
+        text-align: center;
+}
+
+.valor {
+    background-color: #f0f0f0; /* Cor de fundo */
+    
+    font-weight: bold; /* Negrito */
+    color: #333; /* Cor do texto */    
+	display: flex;
+    justify-content: center; /* Alinha horizontalmente */
+    align-items: center; /* Alinha verticalmente */
+    width: 100%;        
+    
+}
+
+.price {
+			font-size: 20px; /* Tamanho da fonte */
+        	border-radius: 6px; /* Raio das bordas arredondadas */
+            border: 2px solid #333; /* Borda com 2px de largura e cor preta */
+            font-weight: bold; /* Negrito */
+            padding: 5px; /* Espaçamento interno para o conteúdo */
+            display: inline-block; /* Faz com que o elemento se comporte como um bloco, mas sem quebrar a linha */
+            
+}
+
+
+#titulo {
+    font-size: 26px; /* Tamanho da fonte */
+    font-weight: bold; /* Negrito */
+    color: #333; /* Cor do texto */
+    background-color: #ffffff;
+    border-radius: 5px
+}
+
+#subtitulo {
+    font-size: 18px; /* Tamanho da fonte */
+    font-weight: bold; /* Negrito */
+    color: #555; /* Cor do texto */
+}
+
+#titulo-detalhes {
+    font-size: 24px; /* Tamanho da fonte */
+    font-weight: bold; /* Negrito */
+    color: #333; /* Cor do texto */    
+}
+
+#detalhes {
+    background-color: #ffffff;
+    font-size: 13px; /* Tamanho da fonte */
+    /*font-weight: bold; /* Negrito */
+    color: #333; /* Cor do texto */
+    padding:5px;
+}
+
+#cod {
+    font-size: 15px; /* Tamanho da fonte */
+    font-weight: bold; /* Negrito */
+    color: #777; /* Cor do texto */
+}
+
+.va {
+    font-size: 12px; /* Tamanho da fonte */
+    font-weight: bold; /* Negrito */
+    color: #000; /* Cor do texto */
+}
+
+.m2 {
+    font-size: 12px; /* Tamanho da fonte */
+    /*font-weight: italic; /* Negrito */
+    color: #000; /* Cor do texto */
+}
+
+    .botao-whatsapp {
+        background-color: #25b366; /* Cor de fundo padrão */
+        color: #fff; /* Cor do texto */
+        border: none;
+        border-radius: 5px;
+		padding: 5px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        /*margin: 4px 2px;*/
+        cursor: pointer;
+       /* width: 100%; /* Largura do elemento */
+        transition: background-color 0.3s ease; /* Transição suave de cor */
+    }
+
+    .botao-whatsapp:hover {
+        background-color: #128C7E; /* Cor de fundo ao passar o mouse */
+        color: #fff; /* Cor do texto */
+    }
+    
+
+    .botao-tel {
+        background-color: #2566ff; /* Cor de fundo padrão */
+        color: #fff; /* Cor do texto */
+        border: none;
+        border-radius: 5px;
+        padding: 5px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        /*margin: 4px 2px;*/
+        cursor: pointer;
+       /* width: 100%; /* Largura do elemento */
+        transition: background-color 0.3s ease; /* Transição suave de cor */
+    }
+
+    .botao-tel:hover {
+        background-color: #1266aa; /* Cor de fundo ao passar o mouse */
+        color: #fff; /* Cor do texto */
+    }
+
+
+    
+    .teste {
+        height: 30%;
+}
+
+hr {
+	height:1px;
+	border-width:1;	
+	padding:0px;
+	}
+
+ .testa{
+   border: 2px solid #333;
+    justify-content: center; /* Alinha horizontalmente */
+    align-items: center; /* Alinha verticalmente */
+    height: 30%;
+        
+    }
+    
